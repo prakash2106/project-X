@@ -24,6 +24,11 @@ public WebElement Hotel;
 		return orderNo;
 	}
 	
+	public void getOrderId() {
+		String attribute = attribute(getOrderNo(), "value");
+		System.out.println(attribute);
+
+	}
 	
 }
 	
